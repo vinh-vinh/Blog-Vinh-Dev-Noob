@@ -9,11 +9,10 @@ export default function Home({ posts }) {
       <Head>
         <title>Blog Vinh-Dev-Noob</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Chia se trai nghiem" />
-
+        <meta name="description" content="Trải nghiệm thực tập" />
         <meta property="og:title" content="Vinh Dev-Noob" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={imageHeader} />
+        <meta property="og:image" content={imageHeader.src} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Vinh Dev-Noob" />
