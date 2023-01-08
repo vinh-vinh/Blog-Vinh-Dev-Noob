@@ -8,7 +8,7 @@ export default function Home({ posts }) {
     <>
       <Head>
         <title>Blog Vinh-Dev-Noob</title>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="description" content="Chia se trai nghiem" />
 
         <meta property="og:title" content="Vinh Dev-Noob" />
@@ -17,7 +17,7 @@ export default function Home({ posts }) {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Vinh Dev-Noob" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
         <link rel="icon" href="/favicon.ico" />
 
