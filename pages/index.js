@@ -13,7 +13,11 @@ export default function Home({ posts }) {
         <meta name="description" content="Trải nghiệm thực tập" />
         <meta property="og:title" content="Vinh Dev-Noob" />
         <meta property="og:type" content="website" />
-        <meta name="image" property="og:image" content={imageHeader.src} />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://media.graphassets.com/he7gey0rQdmwzzGiABuo"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
         <meta property="og:image:alt" content="Vinh Dev-Noob" />
