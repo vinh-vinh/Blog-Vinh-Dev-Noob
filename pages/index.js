@@ -18,6 +18,12 @@ export default function Home({ posts }) {
         <meta property="og:image:alt" content="Vinh Dev-Noob" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
+        <meta property="og:description" content="Trải nghiệm thực tập" />
+        <meta
+          property="og:url"
+          content="https://blog-vinh-dev-noob.vercel.app/"
+        />
+
         <link rel="icon" href="/favicon.ico" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
