@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { PostCard, Categories, PostWidget } from "../components";
 import { getPosts } from "../services";
-import imageHeader from "../../my-app/public/imageHeader.webp";
+// import imageHeader from ""
 import Image from "next/image";
 export default function Home({ posts }) {
   return (
@@ -13,7 +13,7 @@ export default function Home({ posts }) {
 
         <meta property="og:title" content="Vinh Dev-Noob" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={imageHeader} />
+        {/* <meta property="og:image" content={imageHeader} /> */}
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Vinh Dev-Noob" />
