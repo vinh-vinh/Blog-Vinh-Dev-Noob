@@ -4,6 +4,7 @@ import { getCategories } from "../services";
 import Image from "next/image";
 import { MdOutlineLightMode, MdOutlineNightlight } from "react-icons/md";
 import useDarkMode from "../pages/useDarkMode";
+import iconDev from '../public/dev-dot-to.png'
 const Header = () => {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
@@ -21,7 +22,7 @@ const Header = () => {
               <Link href="/">
                 <a className="flex flex-row items-center">
                   <Image
-                    src="/dev-dot-to.png"
+                    src={iconDev}
                     alt="logo"
                     width={60}
                     height={60}

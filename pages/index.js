@@ -8,7 +8,6 @@ export default function Home({ posts }) {
     <>
       <Head>
         <title>Blog Vinh-Dev-Noob</title>
-        <html prefix="og: http://ogp.me/ns#" />
         <meta charSet="utf-8" />
         <meta name="description" content="Trải nghiệm thực tập" />
         <meta property="og:title" content="Vinh Dev-Noob" />
@@ -50,7 +49,7 @@ export default function Home({ posts }) {
   );
 }
 
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const posts = (await getPosts()) || [];
 
   return {
