@@ -12,13 +12,31 @@ export default function Home({ posts }) {
         <meta name="description" content="Trải nghiệm thực tập" />
         <meta property="og:title" content="Vinh Dev-Noob" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={imageHeader.src} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="627" />
+        <meta
+          property="og:image"
+          content="https://media.graphassets.com/he7gey0rQdmwzzGiABuo"
+        />
+        <meta property="og:image:width" content="405" />
+        <meta property="og:image:height" content="405" />
         <meta property="og:image:alt" content="Vinh Dev-Noob" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
         <meta property="og:description" content="Trải nghiệm thực tập" />
+        <meta
+          property="og:url"
+          content="https://blog-vinh-dev-noob.vercel.app/"
+        />
+        <meta name="twitter:title" content="Vinh Dev-Noob" />
+        <meta name="twitter:description" content="Trải nghiệm thực tập" />
+        <meta
+          name="twitter:url"
+          content="https://blog-vinh-dev-noob.vercel.app/"
+        />
+        <meta
+          name="twitter:image"
+          content="https://media.graphassets.com/he7gey0rQdmwzzGiABuo"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
 
         <link rel="icon" href="/favicon.ico" />
 
