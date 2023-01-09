@@ -16,11 +16,14 @@ export default function Home({ posts }) {
           property="og:image"
           content="https://media.graphassets.com/he7gey0rQdmwzzGiABuo"
         />
+        <meta
+          property="og:image:url"
+          content="https://media.graphassets.com/he7gey0rQdmwzzGiABuo"
+        />
         <meta property="og:image:width" content="405" />
         <meta property="og:image:height" content="405" />
         <meta property="og:image:alt" content="Vinh Dev-Noob" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-
         <meta property="og:description" content="Trải nghiệm thực tập" />
         <meta
           property="og:url"
